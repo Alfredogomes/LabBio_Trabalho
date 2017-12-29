@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Generates a table with the description of the gene/protein annotations.
 It contains the following columns:
@@ -11,8 +13,6 @@ It contains the following columns:
  - Associated EC numbers, or TC numbers
  - Description (text about protein's role)
  - Comments
-
 """
 
-#!/usr/bin/env python3
 

@@ -1,0 +1,47 @@
+Gene ID	Gene Accession	Gene name	Reaction id	Reaction EC	Enzymatic activity	Evidence
+G1FLP-2393	AVR58_RS11975		PRPPAMIDOTRANS-RXN	2.4.2.14	amidophosphoribosyltransferase	No Evidence Code
+G1FLP-1711	AVR58_RS08550		PRPPAMIDOTRANS-RXN	2.4.2.14	amidophosphoribosyltransferase	No Evidence Code
+G1FLP-70	AVR58_RS00350		GLYRIBONUCSYN-RXN	6.3.4.13	phosphoribosylglycinamide synthetase	No Evidence Code
+G1FLP-1710	AVR58_RS08545		GLYRIBONUCSYN-RXN	6.3.4.13	phosphoribosylamine--glycine ligase	No Evidence Code
+G1FLP-1709	AVR58_RS08540		GART-RXN	2.1.2.2	phosphoribosylglycinamide formyltransferase	No Evidence Code
+G1FLP-1713	AVR58_RS08560		FGAMSYN-RXN	6.3.5.3	phosphoribosylformylglycinamidine synthase I	No Evidence Code
+G1FLP-1715	AVR58_RS08570		FGAMSYN-RXN	6.3.5.3	phosphoribosylformylglycinamidine synthase II	No Evidence Code
+G1FLP-1714	AVR58_RS08565		AIRS-RXN	6.3.3.1	phosphoribosylformylglycinamidine cyclo-ligase	No Evidence Code
+G1FLP-224	AVR58_RS01125		AIRCARBOXY-RXN	4.1.1.21	5-(carboxyamino)imidazole ribonucleotide synthase	No Evidence Code
+G1FLP-225	AVR58_RS01130		AIRCARBOXY-RXN	4.1.1.21	5-(carboxyamino)imidazole ribonucleotide mutase	No Evidence Code
+G1FLP-1712	AVR58_RS08555		SAICARSYN-RXN	6.3.2.6	phosphoribosylaminoimidazolesuccinocarboxamide synthase	No Evidence Code
+G1FLP-809	AVR58_RS04035		AICARSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+G1FLP-469	AVR58_RS02355		AICARTRANSFORM-RXN	2.1.2.3	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase	No Evidence Code
+G1FLP-469	AVR58_RS02355		IMPCYCLOHYDROLASE-RXN	3.5.4.10	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase	No Evidence Code
+G1FLP-1760	AVR58_RS08800		IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+G1FLP-2927	AVR58_RS14660		IMP-DEHYDROG-RXN	1.1.1.205	guanosine monophosphate reductase	No Evidence Code
+G1FLP-1759	AVR58_RS08795		GMP-SYN-GLUT-RXN	6.3.5.2	GMP synthase (glutamine-hydrolyzing)	No Evidence Code
+G1FLP-2309	AVR58_RS11555		GMP-SYN-GLUT-RXN	6.3.5.2	GMP synthase	No Evidence Code
+G1FLP-2055	AVR58_RS10285		GUANYL-KIN-RXN	2.7.4.8	guanylate kinase	No Evidence Code
+G1FLP-1583	AVR58_RS07910		GDPKIN-RXN	2.7.4.6	nucleoside-diphosphate kinase	No Evidence Code
+G1FLP-1811	AVR58_RS09055		GDPREDUCT-RXN	1.17.4.1	ribonucleoside-diphosphate reductase subunit alpha	No Evidence Code
+G1FLP-1812	AVR58_RS09060		GDPREDUCT-RXN	1.17.4.1	ribonucleotide-diphosphate reductase subunit beta	No Evidence Code
+G1FLP-1583	AVR58_RS07910		DGDPKIN-RXN	2.7.4.6	nucleoside-diphosphate kinase	No Evidence Code
+G1FLP-495	AVR58_RS02485		ADENYLOSUCCINATE-SYNTHASE-RXN	6.3.4.4	adenylosuccinate synthetase	No Evidence Code
+G1FLP-809	AVR58_RS04035		AMPSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+G1FLP-1445	AVR58_RS07220		ADENYL-KIN-RXN	2.7.4.3	adenylate kinase	No Evidence Code
+G1FLP-3084	AVR58_RS15455		ATPSYN-RXN	3.6.3.14	ATP synthase subunit I	No Evidence Code
+G1FLP-1068	AVR58_RS05335		ATPSYN-RXN	3.6.3.14	F0F1 ATP synthase subunit C	No Evidence Code
+G1FLP-1070	AVR58_RS05345		ATPSYN-RXN	3.6.3.14	F0F1 ATP synthase subunit	No Evidence Code
+G1FLP-1065	AVR58_RS05320		ATPSYN-RXN	3.6.3.14	hypothetical protein	No Evidence Code
+G1FLP-1066	AVR58_RS05325		ATPSYN-RXN	3.6.3.14	ATP synthase subunit alpha 1	No Evidence Code
+G1FLP-1067	AVR58_RS05330		ATPSYN-RXN	3.6.3.14	H+ transporting ATP synthase subunit B	No Evidence Code
+G1FLP-1069	AVR58_RS05340		ATPSYN-RXN	3.6.3.14	ATP synthase subunit A	No Evidence Code
+G1FLP-1072	AVR58_RS05355		ATPSYN-RXN	3.6.3.14	ATP synthase subunit beta	No Evidence Code
+G1FLP-1794	AVR58_RS08970		ATPSYN-RXN	3.6.3.14	flagellar protein export ATPase FliI	No Evidence Code
+G1FLP-3076	AVR58_RS15415		ATPSYN-RXN	3.6.3.14	ATP synthase epsilon chain	No Evidence Code
+G1FLP-3077	AVR58_RS15420		ATPSYN-RXN	3.6.3.14	ATP synthase subunit beta	No Evidence Code
+G1FLP-3078	AVR58_RS15425		ATPSYN-RXN	3.6.3.14	ATP synthase subunit gamma	No Evidence Code
+G1FLP-3079	AVR58_RS15430		ATPSYN-RXN	3.6.3.14	ATP synthase subunit alpha	No Evidence Code
+G1FLP-3080	AVR58_RS15435		ATPSYN-RXN	3.6.3.14	F0F1 ATP synthase subunit delta	No Evidence Code
+G1FLP-3081	AVR58_RS15440		ATPSYN-RXN	3.6.3.14	ATP synthase subunit B	No Evidence Code
+G1FLP-3082	AVR58_RS15445		ATPSYN-RXN	3.6.3.14	F0F1 ATP synthase subunit C	No Evidence Code
+G1FLP-3083	AVR58_RS15450		ATPSYN-RXN	3.6.3.14	F0F1 ATP synthase subunit A	No Evidence Code
+G1FLP-1811	AVR58_RS09055		ADPREDUCT-RXN	1.17.4.1	ribonucleoside-diphosphate reductase subunit alpha	No Evidence Code
+G1FLP-1812	AVR58_RS09060		ADPREDUCT-RXN	1.17.4.1	ribonucleotide-diphosphate reductase subunit beta	No Evidence Code
+G1FLP-1583	AVR58_RS07910		DADPKIN-RXN	2.7.4.6	nucleoside-diphosphate kinase	No Evidence Code

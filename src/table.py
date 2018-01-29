@@ -69,6 +69,7 @@ def main():
                         default=sys.stdout,
                         help="output file to write the table")
     args = parser.parse_args()
+
     record = SeqIO.read(args.sequence, 'genbank')
     entries = read_entries(args.biosyc)
     features = get_cds_features(record, entries)

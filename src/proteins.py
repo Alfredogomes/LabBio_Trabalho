@@ -22,12 +22,14 @@ def get_proteins(blast):
     records = NCBIXML.parse(blast)
     proteins = []
 
-    for record in records:
-        for alignment in record.alignments:
-            for hsp in alignment.hsps:
-                if hsp.expect < 0.01:
-                    title = re.search(r'^(.*?)\|(\d+)\|(.*?)\|(.*?)\|.*', alignment.title).group(4)
-                    proteins.append(title)
+    for r in records:
+        alignments = sorted(r.alignments, key=lambda a: a.hsps[0].expect)[0:10]
+
+        for a in alignments:
+            title = re.search(r'^(.*?)\|(\d+)\|(.*?)\|(.*?)\|.*',
+                              a.title).group(4)
+            proteins.append(title)
+
     return proteins
 
 def main():
@@ -41,7 +43,7 @@ def main():
     args = parser.parse_args()
 
     for protein in get_proteins(args.result):
-        print(protein)
+        args.outfile.write(protein + "\n")
 
 if __name__ == "__main__":
     main()

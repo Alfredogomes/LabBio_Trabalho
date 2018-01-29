@@ -25,7 +25,7 @@ BIOSYQ = 'data/pathway-genes'
 SEQUENCE = 'data/sequence.gb'
 
 def get_functions(features, entries):
-    functions = {}
+    functions = []
 
     for f in features:
         gene_id = list(filter(lambda e:
@@ -36,20 +36,20 @@ def get_functions(features, entries):
         if 'function' in f.qualifiers:
             fs = re.split(r'\s*[,/]\s*', f.qualifiers['function'][0])
 
-        functions[gene_id] = fs
+        functions.append((gene_id, f.qualifiers['locus_tag'][0], fs))
 
     return functions
 
 
 def write_table(csvfile, functions):
-    header = ["GeneID"] + list(set([j for i in functions.values() for j in i]))
+    header = ["GeneID", "Accesion"] + list(set([f for _, _, fs in functions for f in fs]))
 
     table = csv.writer(csvfile, delimiter=',', quotechar='"',
                        quoting=csv.QUOTE_MINIMAL)
     table.writerow(header)
 
-    for gene_id, fs in functions.items():
-        row = [gene_id] + ['X' if h in fs else '' for h in header[1:]]
+    for gene_id, accession, fs in functions:
+        row = [gene_id, accession] + ['X' if h in fs else '' for h in header[1:]]
         table.writerow(row)
 
 def main():

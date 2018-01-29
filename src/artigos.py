@@ -38,7 +38,7 @@ registos = Medline.parse(handle)
 
 
 valorOriginal = sys.stdout
-f = open('artigos.txt', 'w')
+f = open('../data/artigos.txt', 'w')
 sys.stdout = f
 
 registos = list(registos)

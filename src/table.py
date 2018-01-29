@@ -16,8 +16,8 @@ import sys
 from Bio import SeqIO
 from biocyc import read_entries
 
-BIOSYQ = 'pathway-genes'
-SEQUENCE = 'sequence.gb'
+BIOSYQ = 'data/pathway-genes'
+SEQUENCE = 'data/sequence.gb'
 
 def get_cds_features(record, entries):
     accessions = [e.gene_accession for e in entries]
@@ -29,16 +29,16 @@ def write_table(csvfile, features, entries):
     table = csv.writer(csvfile, delimiter=',', quotechar='"',
                        quoting=csv.QUOTE_MINIMAL)
     table.writerow([
-        'ID do gene',
+        'Gene ID',
         'Locus tag',
-        'Nome do gene',
+        'Gene name',
         'Strand',
-        'ID da Proteina',
-        'Nome da proteína',
-        'Nº aminoácidos',
-        'Localização',
+        'Protein ID',
+        'Protein name',
+        'Aminoacid number',
+        'Location',
         'EC',
-        'Função'
+        'Function'
     ])
 
     for f in features:

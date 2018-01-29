@@ -1,0 +1,41 @@
+Gene ID,Locus tag,Gene name,Strand,Protein ID,Protein name,Aminoacid number,Location,EC,Function
+G1FLP-70,AVR58_RS00350,,1,WP_010945828.1,phosphoribosylglycinamide synthetase,476,[74425:75856](+),6.3.4.13,"Amino Acid Metabolism, Nucleotide Metabolism"
+G1FLP-224,AVR58_RS01125,,-1,WP_010945978.1,5-(carboxyamino)imidazole ribonucleotide synthase,359,[249088:250168](-),4.1.1.21,Nucleotide Metabolism
+G1FLP-225,AVR58_RS01130,,-1,WP_010945979.1,5-(carboxyamino)imidazole ribonucleotide mutase,166,[250164:250665](-),4.1.1.21,Nucleotide Metabolism
+G1FLP-469,AVR58_RS02355,,-1,WP_010946209.1,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase PurH,529,[501694:503284](-),2.1.2.3,"Nucleotide Metabolism, Metabolism of Cofactors and Vitamins"
+G1FLP-495,AVR58_RS02485,,1,WP_010946234.1,adenylosuccinate synthetase,431,[525920:527216](+),6.3.4.4,"Nucleotide Metabolism, Amino Acid Metabolism"
+G1FLP-809,AVR58_RS04035,,-1,WP_010946537.1,adenylosuccinate lyase,456,[885672:887043](-),4.3.2.2,"Nucleotide Metabolism, Amino Acid Metabolism"
+G1FLP-1065,AVR58_RS05320,,-1,WP_010946782.1,F0F1 ATP synthase subunit gamma,289,[1155675:1156545](-),3.6.3.14,Energy Metabolism
+G1FLP-1066,AVR58_RS05325,,-1,WP_010946783.1,ATP synthase subunit alpha 1,490,[1156602:1158075](-),3.6.3.14,Energy Metabolism
+G1FLP-1067,AVR58_RS05330,,-1,WP_010946784.1,H+ transporting ATP synthase subunit B,247,[1158061:1158805](-),3.6.3.14,Energy Metabolism
+G1FLP-1068,AVR58_RS05335,,-1,WP_011946148.1,ATP synthase F0 subunit C,91,[1158810:1159086](-),3.6.3.14,
+G1FLP-1069,AVR58_RS05340,,-1,WP_010946786.1,ATP synthase subunit A,230,[1159082:1159775](-),3.6.3.14,Energy Metabolism
+G1FLP-1070,AVR58_RS05345,,-1,WP_010946787.1,F0F1 ATP synthase subunit,92,[1159777:1160056](-),3.6.3.14,
+G1FLP-1072,AVR58_RS05355,,-1,WP_010946789.1,F0F1 ATP synthase subunit beta,474,[1160464:1161889](-),3.6.3.14,Energy Metabolism
+G1FLP-1445,AVR58_RS07220,,1,WP_010947140.1,adenylate kinase,236,[1567508:1568219](+),2.7.4.3,Nucleotide Metabolism
+G1FLP-1583,AVR58_RS07910,,-1,WP_010947277.1,nucleoside-diphosphate kinase,158,[1722805:1723282](-),2.7.4.6,Nucleotide Metabolism
+G1FLP-1709,AVR58_RS08540,,-1,WP_010947399.1,phosphoribosylglycinamide formyltransferase,192,[1870134:1870713](-),2.1.2.2,"Nucleotide Metabolism, Metabolism of Cofactors and Vitamins"
+G1FLP-1710,AVR58_RS08545,,-1,WP_010947400.1,phosphoribosylamine--glycine ligase,439,[1870709:1872029](-),6.3.4.13,Nucleotide Metabolism
+G1FLP-1711,AVR58_RS08550,,-1,WP_010947401.1,amidophosphoribosyltransferase,499,[1872025:1873525](-),2.4.2.14,"Nucleotide Metabolism, Amino Acid Metabolism"
+G1FLP-1712,AVR58_RS08555,,-1,WP_010947402.1,phosphoribosylaminoimidazolesuccinocarboxamide synthase,331,[1873547:1874543](-),6.3.2.6,Nucleotide Metabolism
+G1FLP-1713,AVR58_RS08560,,-1,WP_010947403.1,phosphoribosylformylglycinamidine synthase I,420,[1874508:1875771](-),6.3.5.3,Nucleotide Metabolism
+G1FLP-1714,AVR58_RS08565,,-1,WP_010947404.1,phosphoribosylformylglycinamidine cyclo-ligase,358,[1875767:1876844](-),6.3.3.1,Nucleotide Metabolism
+G1FLP-1715,AVR58_RS08570,,-1,WP_010947405.1,phosphoribosylformylglycinamidine synthase subunit PurL,780,[1876810:1879153](-),6.3.5.3,Nucleotide Metabolism
+G1FLP-1759,AVR58_RS08795,,-1,WP_010947449.1,GMP synthase (glutamine-hydrolyzing),525,[1930027:1931605](-),6.3.5.2,"Nucleotide Metabolism, Amino Acid Metabolism"
+G1FLP-1760,AVR58_RS08800,,-1,WP_010947450.1,IMP dehydrogenase,490,[1931607:1933080](-),1.1.1.205,Nucleotide Metabolism
+G1FLP-1794,AVR58_RS08970,,-1,WP_010947483.1,flagellar protein export ATPase FliI,450,[1972063:1973416](-),3.6.3.14,"Chemotaxis / motility / cell division, Signal transduction / other regulatory functions, Nucleotide Metabolism"
+G1FLP-1811,AVR58_RS09055,,1,WP_010947500.1,ribonucleoside-diphosphate reductase subunit alpha,942,[1990594:1993423](+),1.17.4.1,Nucleotide Metabolism
+G1FLP-1812,AVR58_RS09060,,1,WP_010947501.1,ribonucleotide-diphosphate reductase subunit beta,381,[1993394:1994540](+),1.17.4.1,Nucleotide Metabolism
+G1FLP-2055,AVR58_RS10285,,-1,WP_010947726.1,guanylate kinase,209,[2260740:2261370](-),2.7.4.8,Nucleotide Metabolism
+G1FLP-2309,AVR58_RS11555,,-1,WP_010947958.1,GMP synthase,232,[2561731:2562430](-),6.3.5.2,Nucleotide Metabolism
+G1FLP-2393,AVR58_RS11975,,1,WP_010948038.1,amidophosphoribosyltransferase,199,[2646004:2646604](+),2.4.2.14,Transport and binding
+G1FLP-2927,AVR58_RS14660,,1,WP_010948530.1,guanosine monophosphate reductase,337,[3228019:3229033](+),1.1.1.205,Nucleotide Metabolism
+G1FLP-3076,AVR58_RS15415,,-1,WP_010948665.1,ATP synthase epsilon chain,140,[3386196:3386619](-),3.6.3.14,Energy Metabolism
+G1FLP-3077,AVR58_RS15420,,-1,WP_010948666.1,ATP synthase subunit beta,458,[3386630:3388007](-),3.6.3.14,Energy Metabolism
+G1FLP-3078,AVR58_RS15425,,-1,WP_010948667.1,ATP synthase subunit gamma,288,[3388019:3388886](-),3.6.3.14,Energy Metabolism
+G1FLP-3079,AVR58_RS15430,,-1,WP_010948668.1,ATP synthase subunit alpha,517,[3388975:3390529](-),3.6.3.14,Energy Metabolism
+G1FLP-3080,AVR58_RS15435,,-1,WP_010948669.1,F0F1 ATP synthase subunit delta,185,[3390546:3391104](-),3.6.3.14,Energy Metabolism
+G1FLP-3081,AVR58_RS15440,,-1,WP_010948670.1,ATP synthase subunit B,156,[3391090:3391561](-),3.6.3.14,Energy Metabolism
+G1FLP-3082,AVR58_RS15445,,-1,WP_010948671.1,F0F1 ATP synthase subunit C,91,[3391612:3391888](-),3.6.3.14,Energy Metabolism
+G1FLP-3083,AVR58_RS15450,,-1,WP_010948672.1,F0F1 ATP synthase subunit A,292,[3391928:3392807](-),3.6.3.14,Energy Metabolism
+G1FLP-3084,AVR58_RS15455,,-1,WP_010948673.1,ATP synthase subunit I,131,[3392757:3393153](-),3.6.3.14,Energy Metabolism

@@ -8,20 +8,17 @@ Motifs
 import argparse
 import sys
 from Bio import SeqIO
-from Bio.ExPASy import get_sprot_raw
 from Bio.ExPASy import ScanProsite
 
 SEQUENCES = 'data/translations.fasta'
 
-def get_ids(fasta):
-    ids = []
-
-    for record in SeqIO.parse(fasta, 'fasta'):
-        print(record.id)
-        ids.append(record.id)
-
-    return ids
-
+def get_motifs(records, outfile):
+    for record in SeqIO.parse(records, 'fasta'):
+        seq = record.seq
+        keywords = {'CC':'/SKIP-FLAG=FALSE;'}
+        response = ScanProsite.scan(seq, 'http://www.expasy.org', 'xml', **keywords)
+        obj = ScanProsite.read(response)
+        outfile.write(str(obj) + "\n")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -32,11 +29,8 @@ def main():
                         default=sys.stdout,
                         help="output file to write the motifs")
     args = parser.parse_args()
-    
-    for protein in get_ids(args.sequences):
-        with get_sprot_raw(protein) as handle:
-            record = ScanProsite.read(handle)
-            print(record)
 
+    get_motifs(args.sequences, args.outfile)
+   
 if __name__ == "__main__":
     main()

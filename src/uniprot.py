@@ -20,7 +20,7 @@ from Bio import ExPASy
 from Bio import SeqIO
 from Bio import SwissProt
 
-PROTEINS = 'data/proteins'
+PROTEINS = 'data/homologous-proteins.txt'
 
 def get_info(proteins):
     info = []

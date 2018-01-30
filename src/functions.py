@@ -49,7 +49,7 @@ def write_table(csvfile, functions):
     table.writerow(header)
 
     for gene_id, accession, fs in functions:
-        row = [gene_id, accession] + ['X' if h in fs else '' for h in header[1:]]
+        row = [gene_id, accession] + ['X' if h in fs else '' for h in header[2:]]
         table.writerow(row)
 
 def main():
